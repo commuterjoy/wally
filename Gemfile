@@ -1,4 +1,2 @@
-source "http://rubygems.org"
-
-# Specify your gem's dependencies in wally.gemspec
-gemspec
+source :rubygems
+gem "wally"
