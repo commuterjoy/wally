@@ -1,7 +1,8 @@
 %h2
+  = "&laquo;" 
   %a{"href" => '../'}
     = @feature.gherkin["name"]
-%h2
+  = ":"
   = @scenario["name"]
   - if @scenario["tags"]
     = haml :tag_links, {:locals => {:tags => @scenario["tags"]}, :layout => false}
