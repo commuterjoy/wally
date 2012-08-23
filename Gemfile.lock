@@ -1,3 +1,17 @@
+GIT
+  remote: git://github.com/commuterjoy/wally.git
+  revision: 3f6ec09e9770f03eed4cf5a740d7431b1e3d5592
+  specs:
+    wally (0.0.45)
+      bson_ext
+      gherkin
+      haml
+      komainu
+      mongo_mapper
+      rdiscount
+      rest-client
+      sinatra
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -38,18 +52,9 @@ GEM
       rack-protection (~> 1.2)
       tilt (~> 1.3, >= 1.3.3)
     tilt (1.3.3)
-    wally (0.0.45)
-      bson_ext
-      gherkin
-      haml
-      komainu
-      mongo_mapper
-      rdiscount
-      rest-client
-      sinatra
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  wally
+  wally!

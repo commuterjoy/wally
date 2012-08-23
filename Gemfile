@@ -1,2 +1,2 @@
 source :rubygems
-gem "wally"
+gem "wally", :git => "git://github.com/commuterjoy/wally.git"
