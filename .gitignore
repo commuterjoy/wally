@@ -1,7 +1,6 @@
 *.swp
 *.gem
 .bundle
-Gemfile.lock
 pkg/*
 .wally
 chromedriver.log
