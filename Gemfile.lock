@@ -2,7 +2,7 @@ GIT
   remote: git://github.com/commuterjoy/wally.git
   revision: 3f6ec09e9770f03eed4cf5a740d7431b1e3d5592
   specs:
-    wally (0.0.45)
+    wally (0.0.46)
       bson_ext
       gherkin
       haml
